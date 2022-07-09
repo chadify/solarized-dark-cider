@@ -1,7 +1,7 @@
 :root {
-	--keyColor: #002b36;
+	--keyColor: #586e75;
 	--sidebarColor: #073642;
-	--sidebarColorDark: #073642;
+	--sidebarColorDark: #002b36;
 	--sidebarColorMix: #073642;
 }
 div#app {
@@ -11,11 +11,11 @@ div#app {
 	--bgWidth: 0px;
 	--bgHeight: 0px;
 	--chromeHeight: 55px;
-	--keyColor: #002b36;
+	--keyColor: #586e75;
 	width: 100%;
 	height: 100%;
 	background: var(--sidebarColor);
-	color: white;
+	color: #93a1a1;
 	user-select: none;
 	margin: 0 auto;
 	position: relative;
@@ -33,10 +33,10 @@ div#app {
 	}
 
 	.cd-mediaitem-list-item .listitem-content:hover {
-		background: rgba(101, 123, 131, 1);
+		background: rgba(147, 161, 161, 1);
 	}
 	.cd-mediaitem-list-item.mediaitem-selected {
-		background: rgba(101, 123, 131, 1);
+		background: rgba(147, 161, 161, 1);
 	}
 
 	.app-sidebar-footer {
@@ -55,7 +55,7 @@ div#app {
 		.app-chrome-item {
 			&.volume {
 				input[type='range'] {
-					background: rgba(101, 123, 131, 1);
+					background: rgba(147, 161, 161, 1);
 
 					&::-webkit-slider-thumb {
 						background: var(--keyColor);
@@ -71,8 +71,8 @@ div#app {
 
 	.md-btn.md-btn-primary {
 		background: var(--keyColor);
-		color: white;
-		border: 1px solid rgba(101, 123, 131, 1);
+		color: #93a1a1;
+		border: 1px solid rgba(147, 161, 161, 1);
 		border-top: 1px solid rgba(101, 123, 131, 1);
 	}
 }
